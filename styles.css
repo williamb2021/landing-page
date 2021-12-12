@@ -29,7 +29,6 @@ button{
 }
 
 .header{
-    flex: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 125px;
@@ -81,6 +80,8 @@ button{
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin-bottom: -5px;
+    padding: 0;
 }
 
 .hero-text p{
@@ -97,7 +98,7 @@ button{
 }
 
 .hero-image img{
-    width: 500px;
+    width: 350px;
 }
 
 /*Teacher section*/
