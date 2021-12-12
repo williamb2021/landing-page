@@ -106,7 +106,7 @@ button{
 .teachers{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 25px 150px;
 }
 
@@ -116,13 +116,12 @@ button{
     font-weight: 600;
     color: #1f2937;
     text-align: center;
-    padding-bottom: 40px;
 }
 
 .card{
     display:flex;
     flex-direction: column;
-    
+    padding: 15px;    
 }
 
 .card img{
@@ -134,9 +133,9 @@ button{
 .card p {
     text-align: center;
     width: 150px;
-    font-size: 18px;
-
-    color: #1f2937
+    font-size: 14px;
+    color: #1f2937;
+    opacity: 0.7;
 }
 
 
