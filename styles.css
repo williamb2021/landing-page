@@ -31,7 +31,7 @@ button{
     flex: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 75px;
+    padding: 10px 125px;
 }
     
 .left-links, .right-links{
@@ -64,7 +64,7 @@ button{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 100px 75px;
+    padding: 100px 125px;
 }
 
 .hero-text {
@@ -92,11 +92,12 @@ button{
 .hero-image{
     flex:60%; 
     text-align: right;
+    flex-grow: 1;
 }
-/* 
+
 .hero-image img{
-    width: 300px;
-} */
+    max-width:100%;
+}
 
 /*Teacher section*/
 
