@@ -63,12 +63,13 @@ button{
 .hero{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 100px 125px;
 }
 
 .hero-text {
-    flex:40%;
+    flex:50%;
 }
 
 .hero-text h1{
@@ -90,9 +91,8 @@ button{
 }
 
 .hero-image{
-    flex:60%; 
-    text-align: right;
-    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero-image img{
