@@ -21,6 +21,7 @@ body{
 button{
     border-radius: 5px;
     padding: 5px 20px;
+    width: 110px;
 }
 
 .header, .hero, .footer{
@@ -69,7 +70,11 @@ button{
 }
 
 .hero-text {
-    flex:50%;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
 }
 
 .hero-text h1{
@@ -81,6 +86,7 @@ button{
 .hero-text p{
     font-size: 18px;
     color: #e5e7eb;
+    opacity: 0.7;
 }
 
 .hero-text button{
@@ -90,13 +96,8 @@ button{
     font-weight: bold;
 }
 
-.hero-image{
-    display: flex;
-    justify-content: flex-end;
-}
-
 .hero-image img{
-    max-width:100%;
+    width: 500px;
 }
 
 /*Teacher section*/
